@@ -2,37 +2,38 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>JavaScript DOM Booklist</title>
+    <title>Todo-list</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="wrapper">
     <header>
       <div id="page-banner">
-        <h1 class="title">Boklistan 2020</h1>
-        <p>Böcker för bokslusar</p>
+        <h1 class="title"><strong>TODOList</strong> for today</h1>
+        <h2>A todo for today</h2>
       </div>
     </header>
-    <div id="book-list">
-      <h2 class="title">Böcker som jag vill läsa</h2>
+    <div id="task-list">
+      <h3 class="title">Tasks</h3>
       <ul>
         <li>
-          <span class="name">Min historia</span>
-          <span class="delete">Ta bort</span>
+          <span class="name">Buy gift to Lena's birthday</span>
+            <span class="delete">Delete</span>
         </li>
         <li>
-          <span class="name">Anne franks dagbok</span>
-          <span class="delete">Ta bort</span>
+          <span class="name">Pay bills</span>
+          <span class="delete">Delete</span>
         </li>
         <li>
-          <span class="name">En halv gul sol</span>
-          <span class="delete">Ta bort</span>
+          <span class="name">Pick up book for library</span>
+          <span class="delete">Delete</span>
         </li>
       </ul>
     </div>
-    <form id="add-book">
-      <input type="text" placeholder="Lägg till en bok...">
-      <button class="add-button" type="button">Lägg till</button>
+    <form id="add-task">
+      <input type="text" placeholder="Add a task...">
+      <button class="add-button" type="button">Add</button>
     </form>
   </div>
     <script type="text/javascript" src="script.js">
